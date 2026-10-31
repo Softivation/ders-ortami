@@ -2,7 +2,7 @@
 pymavlink==2.4.50
 numpy==2.5.4
 matplotlib==3.11.2
-opencv-python-headless==4.14.0.94
+opencv-python-headless==5.0.0.93
 ipykernel==7.4.0
 
 # MAVProxy kendi bağımlılıkları olmadan kurulur (harita ve 3B görünüm için masaüstü OpenCV ve VTK çekiyor; tarayıcıda
