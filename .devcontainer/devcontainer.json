@@ -1,0 +1,25 @@
+{
+  // Softivation ders ortamı: tarayıcıda açılan hazır geliştirme ortamı (GitHub Codespaces).
+  // İçinde: Python 3.12, pymavlink, MAVProxy, ArduPilot SITL (çok rotorlu, sabit kanat, kara aracı), .NET 8.
+  // Gizli değer (secret) kullanılmaz; hiçbir bağlantı noktası dışarı açılmaz.
+  "name": "Softivation ders ortamı",
+  "image": "mcr.microsoft.com/devcontainers/python:1-3.12-bookworm",
+  "features": {
+    "ghcr.io/devcontainers/features/dotnet:2": { "version": "8.0" }
+  },
+  "hostRequirements": { "cpus": 2, "memory": "4gb" },
+  "postCreateCommand": "bash .devcontainer/kurulum.sh",
+  "portsAttributes": {
+    "5760": { "label": "SITL (TCP)", "onAutoForward": "ignore" },
+    "14550": { "label": "MAVLink (UDP)", "onAutoForward": "ignore" },
+    "14551": { "label": "MAVLink (UDP, ikinci)", "onAutoForward": "ignore" }
+  },
+  "otherPortsAttributes": { "onAutoForward": "ignore" },
+  "customizations": {
+    "codespaces": { "openFiles": ["README.md", "ornekler/python/01_kalp_atisi.py"] },
+    "vscode": {
+      "extensions": ["ms-python.python", "ms-toolsai.jupyter", "ms-dotnettools.csharp"],
+      "settings": { "python.defaultInterpreterPath": "/usr/local/bin/python" }
+    }
+  }
+}

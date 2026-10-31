@@ -1,0 +1,9 @@
+# ArduPilot SITL ikilileri ve varsayılan parametreleri: adres ve SHA-256. kurulum.sh yalnız özeti tutan dosyayı kullanır.
+# Kaynak: firmware.ardupilot.org (resmî derlemeler) ve ArduPilot deposunun sürüm etiketleri. Sürüm: 4.7.2 (commit fb77356).
+# Güncellemek için: yeni adresleri yaz, dosyaları indir, `sha256sum` ile özetleri buraya koy.
+arducopter   https://firmware.ardupilot.org/Copter/stable-4.7.2/SITL_x86_64_linux_gnu/arducopter   caed35e4cb796ec06cac40b09566a18251771486b1cbac5e2bf16b7a5ed5045d
+arduplane    https://firmware.ardupilot.org/Plane/stable-4.7.2/SITL_x86_64_linux_gnu/arduplane     6867c162941c6f5ed3e06db667561aa093413e186cbd5511ea444fc6854168f1
+ardurover    https://firmware.ardupilot.org/Rover/stable-4.7.2/SITL_x86_64_linux_gnu/ardurover     f453fd8217b9d798c873e5c424e139a2a3597b52e31658f76b2c177b523391af
+copter.parm  https://raw.githubusercontent.com/ArduPilot/ardupilot/Copter-4.7.2/Tools/autotest/default_params/copter.parm   5e01345b45d1c6190b28bece5638bbdd4cf1cce35e05bbbf480ab24d2b51aa0e
+plane.parm   https://raw.githubusercontent.com/ArduPilot/ardupilot/Plane-4.7.2/Tools/autotest/models/plane.parm            93ba9a70c771609a90b81249d6a1d5a9df8d48bef7d149b42b2d9c7fbd06494a
+rover.parm   https://raw.githubusercontent.com/ArduPilot/ardupilot/Rover-4.7.2/Tools/autotest/default_params/rover.parm    6479879d3e625854a6c32cb4d3fe231bab81d935e07904eac8a411fd6f971bc4

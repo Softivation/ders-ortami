@@ -1,0 +1,12 @@
+# Softivation ders ortamı: Python paketleri. Sürümler sabittir; güncellemeyi Dependabot önerir, inceleyip birleştiririz.
+pymavlink==2.4.50
+numpy==2.5.4
+matplotlib==3.11.2
+opencv-python-headless==4.14.0.94
+ipykernel==7.4.0
+
+# MAVProxy kendi bağımlılıkları olmadan kurulur (harita ve 3B görünüm için masaüstü OpenCV ve VTK çekiyor; tarayıcıda
+# gereksiz). Konsol için gerekenler:
+pyserial==3.5
+pynmeagps==1.1.8
+defusedxml==0.7.1

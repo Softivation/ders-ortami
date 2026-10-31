@@ -1,0 +1,9 @@
+# Sabit sürümlerin güncellemesini ayda bir önerir (birleştirmeden önce Codespace'te örnekler denenir)
+version: 2
+updates:
+  - package-ecosystem: pip
+    directory: /
+    schedule: { interval: monthly }
+  - package-ecosystem: devcontainers
+    directory: /
+    schedule: { interval: monthly }

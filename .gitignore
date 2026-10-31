@@ -1,0 +1,6 @@
+.sitl-calisma/
+__pycache__/
+*.png
+bin/
+obj/
+.ipynb_checkpoints/
