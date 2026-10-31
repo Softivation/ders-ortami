@@ -66,4 +66,8 @@ Aynı alıştırmalar sitede de, hiçbir hesap gerekmeden çalışır: [Python d
 | `ornekler/csharp/` | C# ile MAVLink okuma |
 | `colab/` | Google Colab defterleri |
 
-ArduPilot, pymavlink ve MAVProxy kendi lisanslarıyla (GPLv3 / LGPLv3) dağıtılır; bu depo onları değiştirmeden, resmî kaynaklarından indirir.
+## Lisans
+
+Bu depodaki kod ve defterler [MIT lisansı](LICENSE) ile serbestçe kullanılabilir, değiştirilebilir ve paylaşılabilir.
+ArduPilot, pymavlink ve MAVProxy kendi lisanslarıyla (GPLv3 / LGPLv3) dağıtılır; bu depo onları içermez, kurulumda değiştirmeden
+resmî kaynaklarından indirir.
